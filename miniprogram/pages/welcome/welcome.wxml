@@ -1,0 +1,13 @@
+<view class="page" style="transition: opacity 1s; opacity: {{ fadeOut ? 0 : 1 }}">
+  <view class="container">
+    <image class="background" mode="widthFix" src="/images/common/logo.png" />
+
+    <view class="padding flex flex-direction" style="transition: opacity .5s; opacity: {{ showLogin ? 1 : 0 }}">
+      <button class="cu-btn block lines-orange shadow round" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="handleGetUserInfo">
+        <text class="icon-magic" style="font-size: 40rpx"></text> 开启 微刺猬</button>
+
+    </view>
+
+  </view>
+
+</view>
